@@ -19,6 +19,23 @@ button {
   border: none;
 }
 
+.tutor-option {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 :root {
   --crimson: #990000;
 }

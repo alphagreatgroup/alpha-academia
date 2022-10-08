@@ -13,8 +13,8 @@ function NavbarComponent() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link href="#">Home</Nav.Link>
-            <Nav.Link href="#">Our Services</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/services">Our Services</Nav.Link>
             <Nav.Link href="#">About</Nav.Link>
             <Nav.Link href="#">Contact</Nav.Link>
           </Nav>
