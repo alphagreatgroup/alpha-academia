@@ -7,6 +7,8 @@ import Col from "react-bootstrap/Col";
 import laptopStudent from "../../images/student-with-laptop.png";
 import bookStudent from "../../images/student-with-book.png";
 
+import Footer from "../Footer";
+
 import Packages from "./Package/Packages";
 import Tutors from "./Tutor/Tutors";
 
