@@ -10,6 +10,8 @@ import bookStudent from "../../images/student-with-book.png";
 import Packages from "./Package/Packages";
 import Tutors from "./Tutor/Tutors";
 
+import Testimonial from "./Testimonial/Testimonial";
+
 function HomepageComponent() {
   return (
     <Container>
@@ -96,6 +98,7 @@ function HomepageComponent() {
       </Row>
       <Packages />
       <Tutors />
+      <Testimonial />
     </Container>
   );
 }
