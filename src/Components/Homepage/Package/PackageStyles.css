@@ -1,0 +1,45 @@
+.top-right {
+  height: 0.3rem;
+  width: 4rem;
+  background-color: var(--crimson);
+  position: relative;
+  left: 1rem;
+  top: 0.7rem;
+}
+
+.top-down {
+  height: 3rem;
+  width: 0.3rem;
+  background-color: var(--crimson);
+  position: relative;
+  left: 0.5rem;
+}
+
+.top-box {
+  height: 1.2rem;
+  width: 1.2rem;
+  border: 5px solid var(--crimson);
+}
+
+.box {
+  background-color: black;
+  width: 7rem;
+  height: 7rem;
+  position: relative;
+  left: 1.5rem;
+  top: -2.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.package-heading,
+.package-intro {
+  position: relative;
+  left: 10rem;
+  top: -7rem;
+}
+
+.package-heading {
+  color: var(--crimson);
+}

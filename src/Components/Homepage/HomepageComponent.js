@@ -7,6 +7,13 @@ import Col from "react-bootstrap/Col";
 import laptopStudent from "../../images/student-with-laptop.png";
 import bookStudent from "../../images/student-with-book.png";
 
+import Pacakge from "./Package/Package";
+
+import cedi from "../../images/cedi.png";
+import teacher from "../../images/teacher.png";
+import student from "../../images/student.png";
+import studentR from "../../images/student reading.png";
+
 function HomepageComponent() {
   return (
     <Container>
@@ -94,6 +101,50 @@ function HomepageComponent() {
       <p className="mt-5 text-start h1 w-50">
         Why learn and prep with Alpha academea?
       </p>
+      <Row>
+        <Col>
+          <Pacakge
+            imagePath={cedi}
+            alt="cedi symbol"
+            heading="Affordable Packages"
+            intro="we have made every package in a way to suit your budget"
+          />
+        </Col>
+        <Col>
+          <Pacakge
+            imagePath={teacher}
+            alt="teacher symbol"
+            heading="Experienced Tutors"
+            intro="we have certified and well trained tutors that attend to the needs of every student"
+          />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Pacakge
+            imagePath={student}
+            alt="student symbol"
+            heading="One-on-one tutorials"
+            intro="This makes tutor address your problem alone and devote their to make you understand "
+          />
+        </Col>
+        <Col>
+          <Pacakge
+            imagePath={studentR}
+            alt="student reading symbol"
+            heading="Comprehensive content"
+            intro="we have our student at heart therefore we are mindful about the content  deliver"
+          />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <p className="h1 text-start">Find the best tutor here</p>
+        </Col>
+        <Col className="text-end">
+          <button>Explore more</button>
+        </Col>
+      </Row>
     </Container>
   );
 }

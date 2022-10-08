@@ -3,6 +3,8 @@ import "./App.css";
 import NavbarComponent from "./Components/NavbarComponent";
 import HomepageComponent from "./Components/Homepage/HomepageComponent";
 
+import "bootstrap/dist/css/bootstrap.min.css";
+
 function App() {
   return (
     <div className="App">
