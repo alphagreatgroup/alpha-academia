@@ -7,6 +7,11 @@ import Col from "react-bootstrap/Col";
 import laptopStudent from "../../images/student-with-laptop.png";
 import bookStudent from "../../images/student-with-book.png";
 
+import Packages from "./Package/Packages";
+import Tutors from "./Tutor/Tutors";
+
+import Testimonial from "./Testimonial/Testimonial";
+
 function HomepageComponent() {
   return (
     <Container>
@@ -91,9 +96,9 @@ function HomepageComponent() {
           </Row>
         </Col>
       </Row>
-      <p className="mt-5 text-start h1 w-50">
-        Why learn and prep with Alpha academea?
-      </p>
+      <Packages />
+      <Tutors />
+      <Testimonial />
     </Container>
   );
 }
