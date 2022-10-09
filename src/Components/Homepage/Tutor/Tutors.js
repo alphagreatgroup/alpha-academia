@@ -11,10 +11,10 @@ import Jess from "../../../images/Jess.png";
 
 function Tutors() {
   return (
-    <>
+    <div>
       <Row>
         <Col>
-          <p className="h1 text-start">Find the best tutor here</p>
+          <h2 className="h1 text-start">Find the best tutor here</h2>
         </Col>
         <Col className="text-end">
           <button>Explore more</button>
@@ -51,7 +51,7 @@ function Tutors() {
           />
         </Col>
       </Row>
-    </>
+    </div>
   );
 }
 

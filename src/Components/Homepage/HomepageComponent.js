@@ -10,7 +10,7 @@ import bookStudent from "../../images/student-with-book.png";
 import Packages from "./Package/Packages";
 import Tutors from "./Tutor/Tutors";
 
-import Testimonial from "./Testimonial/Testimonial";
+import Testimonials from "./Testimonial/Testimonials";
 
 function HomepageComponent() {
   return (
@@ -98,7 +98,7 @@ function HomepageComponent() {
       </Row>
       <Packages />
       <Tutors />
-      <Testimonial />
+      <Testimonials />
     </Container>
   );
 }
