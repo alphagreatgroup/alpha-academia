@@ -14,7 +14,10 @@ function Tutors() {
     <div>
       <Row>
         <Col>
-          <h2 className="h1 text-start">Find the best tutor here</h2>
+          <h2 className="h1 text-start">
+            Find the <span className="crimson">best</span> tutor{" "}
+            <span className="crimson">here</span>
+          </h2>
         </Col>
         <Col className="text-end">
           <button>Explore more</button>

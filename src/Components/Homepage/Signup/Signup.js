@@ -10,8 +10,8 @@ function SignUp() {
         <span className="h2 d-block">to also experience the best </span>
       </p>
       <div className="d-flex my-5 justify-content-around">
-        <button>Register as parent</button>
-        <button>Register as student</button>
+        <button className="bg-white text-dark">Register as parent</button>
+        <button className="bg-dark text-white">Register as student</button>
         <button>Register as tutor</button>
       </div>
     </Container>

@@ -16,7 +16,9 @@ function Testimonials(props) {
     <div className="mt-5">
       <Row>
         <Col>
-          <h2 className="h1 text-start">What our clients think about us</h2>
+          <h2 className="h1 text-start">
+            What our <span className="crimson">clients think</span> about us
+          </h2>
         </Col>
         <Col className="text-end">
           <button>Explore more</button>
