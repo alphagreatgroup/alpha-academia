@@ -9,7 +9,11 @@ function Testimonial(props) {
     <div style={props.style} className="testimonial w-100">
       <Row>
         <Col md={2} className="text-start">
-          <img src={props.imagePath} className="img-fluid testifier" />
+          <img
+            src={props.imagePath}
+            className="img-fluid testifier"
+            alt={props.name}
+          />
         </Col>
         <Col>
           <p className="text-start">{props.name}</p>
