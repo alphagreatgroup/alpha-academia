@@ -8,7 +8,7 @@ function Package(props) {
       <div className="top-right"></div>
       <div className="top-box"></div>
       <div className="top-down"></div>
-      <div className="box">
+      <div className="box d-flex justify-content-center align-items-center">
         <img src={props.imagePath} alt={props.alt} />
       </div>
       <h3 className="text-start w-50 package-heading">{props.heading}</h3>

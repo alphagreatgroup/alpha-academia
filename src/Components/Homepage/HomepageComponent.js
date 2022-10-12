@@ -12,6 +12,7 @@ import Tutors from "./Tutor/Tutors";
 
 import Testimonials from "./Testimonial/Testimonials";
 import SignUp from "./Signup/Signup";
+import Institutions from "./Institutions/Institutions";
 
 function HomepageComponent() {
   return (
@@ -101,6 +102,7 @@ function HomepageComponent() {
       <Tutors />
       <Testimonials />
       <SignUp />
+      <Institutions />
     </Container>
   );
 }
