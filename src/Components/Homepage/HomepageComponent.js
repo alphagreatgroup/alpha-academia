@@ -11,6 +11,7 @@ import Packages from "./Package/Packages";
 import Tutors from "./Tutor/Tutors";
 
 import Testimonials from "./Testimonial/Testimonials";
+import SignUp from "./Signup/Signup";
 
 function HomepageComponent() {
   return (
@@ -99,6 +100,7 @@ function HomepageComponent() {
       <Packages />
       <Tutors />
       <Testimonials />
+      <SignUp />
     </Container>
   );
 }
