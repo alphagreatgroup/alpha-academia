@@ -70,8 +70,8 @@ function ContactPage() {
             ></div>
             <img
               src={customerCare}
-              alt="custome care"
               className="img-fluid grayscale-img w-75"
+              alt="custome care"
             />
           </Col>
         </Row>
