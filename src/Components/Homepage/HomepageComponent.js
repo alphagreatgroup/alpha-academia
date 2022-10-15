@@ -17,6 +17,7 @@ import Testimonials from "./Testimonial/Testimonials";
 import SignUp from "./Signup/Signup";
 import Institutions from "./Institutions/Institutions";
 import scores from "../../images/scores.png";
+import NavbarComponent from "../NavbarComponent";
 
 function HomepageComponent() {
   return (
