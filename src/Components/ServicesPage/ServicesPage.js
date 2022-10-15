@@ -30,19 +30,23 @@ const ServicesPage = () => {
             <TutorOption
               text="online tutoring"
               bg={InHouseTutor}
-              color={"text-gray-50"}
+              color={"rgba(0, 0, 0, 0.5)"}
             />
           </Col>
           <Col>
-            <TutorOption text="in-home tutoring" bg={OnlineTutor} />
+            <TutorOption
+              text="in-home tutoring"
+              bg={OnlineTutor}
+              color={"rgba(153, 0, 0, 0.5)"}
+            />
           </Col>
         </Row>
         <Row className="my-5">
           <Col>
             <h2 className="h1">
-              Test <span style={{ color: "#990000" }}>prepping</span>
+              Test <span className="crimson text">prepping</span>
             </h2>
-            <p className="lh-base">
+            <p className="lh-base text-secondary">
               We offer test prepping and train students to perform well on
               various examinations. You can choose to receive one-on-one
               instruction or we can group you with other students who share your
@@ -53,7 +57,8 @@ const ServicesPage = () => {
             <button>Register</button>
           </Col>
           <Col>
-            <img src={TestPrepping} alt="Test Prepping" className="w-100" />
+          <div className="prep-box"></div>
+            <img src={TestPrepping} alt="Test Prepping" className="w-100 p-5" />
           </Col>
         </Row>
       </Container>
