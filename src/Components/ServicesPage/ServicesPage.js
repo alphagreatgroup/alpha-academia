@@ -5,10 +5,12 @@ import InHouseTutor from "../../images/in-house-tutor.png";
 import OnlineTutor from "../../images/online-tutor.png";
 import TestPrepping from "../../images/test-prepping.png";
 import Footer from "../Footer";
+import NavbarComponent from "../NavbarComponent";
 
 const ServicesPage = () => {
   return (
     <>
+      <NavbarComponent />
       <Container className="text-start">
         <Row>
           <Col>
