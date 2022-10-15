@@ -32,7 +32,7 @@ const AboutPage = () => {
           <Col>
             <img src={Daniel} alt="Daniel" className="rounded-circle w-75" />
             <h3 className="fs-4 mb-0">Daniel Bontii</h3>
-            <p className="fs-5">Head of Engineering</p>
+            <p className="fs-6 fw-bold text-secondary">Head of Engineering</p>
           </Col>
           <Col>
             <img
@@ -41,27 +41,31 @@ const AboutPage = () => {
               className="rounded-circle w-75"
             />
             <h3 className="fs-4 mb-0">Nana Kwame Appau</h3>
-            <p className="fs-5">Founder and CEO</p>
+            <p className="fs-6 fw-bold text-secondary">Founder and CEO</p>
           </Col>
           <Col>
             <img src={Paul} alt="Paul" className="rounded-circle w-75" />
             <h3 className="fs-4 mb-0">Paul Sansah</h3>
-            <p className="fs-5"></p>
+            <p className="fs-6 fw-bold text-secondary">COO</p>
           </Col>
           <Col>
             <img src={Fiifi} alt="" className="rounded-circle w-75" />
             <h3 className="fs-4 mb-0">Fiifi Appiah</h3>
-            <p className="fs-5">UX Designer</p>
+            <p className="fs-6 fw-bold text-secondary">UX Designer</p>
           </Col>
           <Col>
             <img src={Default} alt="" className="rounded-circle w-75" />
             <h3 className="fs-4 mb-0">Felix Amoah</h3>
-            <p className="fs-5">Head of Sales and Marketing</p>
+            <p className="fs-6 fw-bold text-secondary">
+              Head of Sales and Marketing
+            </p>
           </Col>
           <Col>
             <img src={Delight} alt="" className="rounded-circle w-75" />
             <h3 className="fs-4 mb-0">Delight Jessica</h3>
-            <p className="fs-5">Head of Tutoring and Test Prepping</p>
+            <p className="fs-6 fw-bold text-secondary">
+              Head of Tutoring and Test Prepping
+            </p>
           </Col>
         </Row>
         <button>view more</button>
@@ -70,7 +74,7 @@ const AboutPage = () => {
             <h2 className="text-start">
               Our <span className="crimson">Mission</span>
             </h2>
-            <p className="text-start">
+            <p className="text-start text-secondary fs-5">
               We believe that we are on this earth to improve and make life
               better. Our goal is to empower students to apply knowledge
               acquired in science, mathematics and technology to innovate and
@@ -79,7 +83,7 @@ const AboutPage = () => {
               excites and retains exceptional STEM field professionals and
               thought leaders with high ethical standards.
             </p>
-            <p className="text-start">
+            <p className="text-start text-secondary fs-5">
               We also believe that getting the foundation is very important
               therefore we are willing to set that strong foundation and and
               help you build upon that foundation.
