@@ -18,9 +18,12 @@ import SignUp from "./Signup/Signup";
 import Institutions from "./Institutions/Institutions";
 import scores from "../../images/scores.png";
 
+import NavbarComponent from "../NavbarComponent";
+
 function HomepageComponent() {
   return (
     <>
+      <NavbarComponent />
       <Container>
         <Row>
           <Col className="mt-5">
@@ -130,9 +133,9 @@ function HomepageComponent() {
         <Packages />
         <Tutors />
         <Testimonials />
-        <SignUp />
-        <Institutions />
       </Container>
+      <SignUp />
+      <Institutions />
       <Footer />
     </>
   );
