@@ -8,9 +8,13 @@ import ServicesPage from "./Components/ServicesPage/ServicesPage";
 import AboutPage from "./Components/AboutPage/AboutPage";
 import ContactPage from "./Components/ContactPage/ContactPage";
 
+import NavbarComponent from "./Components/NavbarComponent";
+import Footer from "./Components/Footer";
+
 function App() {
   return (
     <div className="App">
+      <NavbarComponent />
       <Router>
         <Routes>
           <Route path="/" element={<HomepageComponent />} />
@@ -19,6 +23,7 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }

@@ -6,15 +6,11 @@ import Col from "react-bootstrap/Col";
 
 import customerCare from "../../images/customer-care.png";
 
-import Footer from "../Footer";
-
 import "./ContactPageStyles.css";
-import NavbarComponent from "../NavbarComponent";
 
 function ContactPage() {
   return (
     <>
-      <NavbarComponent />
       <Container className="mt-5">
         <Row>
           <Col md={6}>
@@ -76,7 +72,6 @@ function ContactPage() {
           </Col>
         </Row>
       </Container>
-      <Footer />
     </>
   );
 }

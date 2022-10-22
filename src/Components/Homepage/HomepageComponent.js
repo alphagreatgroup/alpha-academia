@@ -8,8 +8,6 @@ import Col from "react-bootstrap/Col";
 import laptopStudent from "../../images/student-with-laptop.png";
 import bookStudent from "../../images/student-with-book.png";
 
-import Footer from "../Footer";
-
 import Packages from "./Package/Packages";
 import Tutors from "./Tutor/Tutors";
 
@@ -18,12 +16,9 @@ import SignUp from "./Signup/Signup";
 import Institutions from "./Institutions/Institutions";
 import scores from "../../images/scores.png";
 
-import NavbarComponent from "../NavbarComponent";
-
 function HomepageComponent() {
   return (
     <>
-      <NavbarComponent />
       <Container>
         <Row>
           <Col className="mt-5">
@@ -52,7 +47,7 @@ function HomepageComponent() {
               alt="student"
               src={laptopStudent}
               className="position-relative"
-              style={{ top: "-10%", left: "-13%", width: "120%" }}
+              style={{ top: "-4%", left: "-13%", width: "120%" }}
             />
           </Col>
         </Row>
@@ -136,7 +131,6 @@ function HomepageComponent() {
       </Container>
       <SignUp />
       <Institutions />
-      <Footer />
     </>
   );
 }
