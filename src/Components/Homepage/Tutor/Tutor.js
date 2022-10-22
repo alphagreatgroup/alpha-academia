@@ -11,11 +11,7 @@ import emptyStar from "../../../images/empty star.png";
 function Tutor(props) {
   return (
     <div className="tutor-card">
-      <img
-        src={props.imagePath}
-        className="img-fluid"
-        alt={`image of ${props.name}`}
-      />
+      <img src={props.imagePath} className="img-fluid" alt={props.name} />
       <Row className="mt-3">
         <Col>
           <Row>
@@ -31,22 +27,33 @@ function Tutor(props) {
               <span className="stars">
                 {new Array(Number(props.rating.split(".")[0]))
                   .fill(0)
-                  .map((star) => (
-                    <img className="star" src={fullStar} />
+                  .map((star, i) => (
+                    <img
+                      className="star"
+                      alt="rating starr"
+                      src={fullStar}
+                      key={i * Math.random()}
+                    />
                   ))}
                 <img
                   className="star"
+                  alt="rating start"
                   src={
                     Number(props.rating.split(".")[0]) < 5 &&
-                    props.rating.split(".")[1] == "0"
+                    props.rating.split(".")[1] === "0"
                       ? emptyStar
                       : halfStar
                   }
                 />
                 {new Array(5 - Number(props.rating.split(".")[0]) - 1)
                   .fill(0)
-                  .map((star) => (
-                    <img className="star" src={emptyStar} />
+                  .map((star, i) => (
+                    <img
+                      className="star"
+                      alt="rating star"
+                      src={emptyStar}
+                      key={i * Math.random()}
+                    />
                   ))}
               </span>
               <span className="rating">{props.rating}</span>

@@ -4,13 +4,10 @@ import TutorOption from "./TutorOption";
 import InHouseTutor from "../../images/in-house-tutor.png";
 import OnlineTutor from "../../images/online-tutor.png";
 import TestPrepping from "../../images/test-prepping.png";
-import Footer from "../Footer";
-import NavbarComponent from "../NavbarComponent";
 
 const ServicesPage = () => {
   return (
     <>
-      <NavbarComponent />
       <Container className="text-start">
         <Row>
           <Col>
@@ -57,12 +54,11 @@ const ServicesPage = () => {
             <button>Register</button>
           </Col>
           <Col>
-          <div className="prep-box"></div>
+            <div className="prep-box"></div>
             <img src={TestPrepping} alt="Test Prepping" className="w-100 p-5" />
           </Col>
         </Row>
       </Container>
-      <Footer />
     </>
   );
 };

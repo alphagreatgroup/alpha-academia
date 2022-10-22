@@ -1,19 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Footer from "../Footer";
 import Daniel from "../../images/daniel.png";
 import Paul from "../../images/Paul.png";
 import Default from "../../images/default.png";
 import Fiifi from "../../images/fiifi.png";
 import Delight from "../../images/Delight.png";
 import OurMission from "../../images/our_mission.png";
-import NavbarComponent from "../NavbarComponent";
 
 const AboutPage = () => {
   return (
     <div>
-      <NavbarComponent />
-
       <Container>
         <Row>
           <Col>
@@ -94,7 +90,6 @@ const AboutPage = () => {
           </Col>
         </Row>
       </Container>
-      <Footer />
     </div>
   );
 };
