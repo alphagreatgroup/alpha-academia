@@ -12,7 +12,7 @@ const ServicesPage = () => {
         <Row>
           <Col>
             <h1>Tutoring</h1>
-            <p className="lh-base">
+            <p className="lh-base text-secondary">
               We offer quality tutoring service for students at all levels and
               in STEM subjects. We have a collection of experienced private home
               tutors in many cities of Ghana, so depending on your location, we
