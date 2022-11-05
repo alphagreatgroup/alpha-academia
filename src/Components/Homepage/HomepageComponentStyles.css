@@ -6,3 +6,12 @@
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
+
+.show-on-top {
+  position: relative;
+  z-index: 100;
+}
+
+.relative {
+  position: relative;
+}

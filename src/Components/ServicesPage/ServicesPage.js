@@ -1,18 +1,18 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import TutorOption from "./TutorOption";
+import Footer from "../Footer";
+import NavbarComponent from "../NavbarComponent";
 import InHouseTutor from "../../images/in-house-tutor.png";
 import OnlineTutor from "../../images/online-tutor.png";
 import TestPrepping from "../../images/test-prepping.png";
-import Footer from "../Footer";
-import NavbarComponent from "../NavbarComponent";
 
 const ServicesPage = () => {
   return (
     <>
       <NavbarComponent />
       <Container className="text-start">
-        <Row>
+        <Row className="row-cols-1 row-cols-md-2">
           <Col>
             <h1>Tutoring</h1>
             <p className="lh-base text-secondary">
@@ -25,7 +25,7 @@ const ServicesPage = () => {
           </Col>
           <Col></Col>
         </Row>
-        <Row>
+        <Row className="row-cols-1 row-cols-md-2 gap-5">
           <Col>
             <TutorOption
               text="online tutoring"
@@ -41,7 +41,7 @@ const ServicesPage = () => {
             />
           </Col>
         </Row>
-        <Row className="my-5">
+        <Row className="my-5 row-cols-1 row-cols-md-2 gap-5">
           <Col>
             <h2 className="h1">
               Test <span className="crimson text">prepping</span>
@@ -57,7 +57,7 @@ const ServicesPage = () => {
             <button>Register</button>
           </Col>
           <Col>
-          <div className="prep-box"></div>
+            <div className="prep-box"></div>
             <img src={TestPrepping} alt="Test Prepping" className="w-100 p-5" />
           </Col>
         </Row>

@@ -15,7 +15,7 @@ const AboutPage = () => {
       <NavbarComponent />
 
       <Container>
-        <Row>
+        <Row className="row-cols-1 row-cols-md-2">
           <Col>
             <h1 className="text-start">
               Meet the <span className="crimson">great</span> team behind this
@@ -28,7 +28,7 @@ const AboutPage = () => {
           </Col>
           <Col></Col>
         </Row>
-        <Row className="row-cols-3 mt-5">
+        <Row className="row-cols-1 row-cols-md-3 mt-5">
           <Col>
             <img src={Daniel} alt="Daniel" className="rounded-circle w-75" />
             <h3 className="fs-4 mb-0">Daniel Bontii</h3>
@@ -69,7 +69,7 @@ const AboutPage = () => {
           </Col>
         </Row>
         <button>view more</button>
-        <Row className="mt-5">
+        <Row className="mt-5 row-cols-1 row-cols-md-2">
           <Col>
             <h2 className="text-start">
               Our <span className="crimson">Mission</span>
