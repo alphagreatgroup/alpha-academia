@@ -36,8 +36,29 @@
   position: relative;
   left: 10rem;
   top: -7rem;
+  width: 50%;
 }
 
 .package-heading {
   color: var(--crimson);
+}
+
+@media only screen and (max-width: 480px) {
+  .package-container {
+    height: 200px;
+  }
+
+  .box {
+    background-color: black;
+    width: 4rem;
+    height: 4rem;
+    padding: 2%;
+  }
+
+  .package-heading,
+  .package-intro {
+    left: 6.5rem;
+    top: -7rem;
+    width: 65%;
+  }
 }
