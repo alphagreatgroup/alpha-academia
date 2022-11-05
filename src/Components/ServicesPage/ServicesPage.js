@@ -10,7 +10,6 @@ import TestPrepping from "../../images/test-prepping.png";
 const ServicesPage = () => {
   return (
     <>
-      <NavbarComponent />
       <Container className="text-start">
         <Row className="row-cols-1 row-cols-md-2">
           <Col>
@@ -62,7 +61,6 @@ const ServicesPage = () => {
           </Col>
         </Row>
       </Container>
-      <Footer />
     </>
   );
 };
