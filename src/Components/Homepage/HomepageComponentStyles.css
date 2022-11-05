@@ -3,6 +3,12 @@
 }
 
 .grayscale-img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+@media only screen and (max-width: 480px) {
+  .get-started-button {
+    margin-bottom: 10%;
+  }
 }

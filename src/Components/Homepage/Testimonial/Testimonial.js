@@ -8,20 +8,20 @@ function Testimonial(props) {
   return (
     <div style={props.style} className="testimonial w-100">
       <Row>
-        <Col md={2} className="text-start">
+        <div className="d-flex align-items-center">
           <img
             src={props.imagePath}
-            className="img-fluid testifier"
+            className="img-fluid testifier w-25 me-3"
             alt={props.name}
           />
-        </Col>
-        <Col>
-          <p className="text-start">{props.name}</p>
-          <p className="text-start">{props.role}</p>
-        </Col>
+          <div className="d-flex flex-column">
+            <p className="text-start mb-1 ">{props.name}</p>
+            <p className="text-start">{props.role}</p>
+          </div>
+        </div>
       </Row>
-      <Row>
-        <Col md={10}>
+      <Row className="mt-3">
+        <Col sm={10}>
           <p className="text-start">{props.testimony}</p>
         </Col>
         <Col></Col>

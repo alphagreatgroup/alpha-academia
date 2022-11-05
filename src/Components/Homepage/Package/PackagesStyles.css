@@ -1,0 +1,22 @@
+.packages-heading {
+  width: 50%;
+}
+
+.border-right {
+  border-right: 3px dashed #d9d9d9;
+}
+
+.border-bottom-row {
+  border-bottom: 3px dashed #d9d9d9;
+}
+
+@media only screen and (max-width: 480px) {
+  .packages-heading {
+    width: 100%;
+  }
+
+  .border-right,
+  .border-bottom-row {
+    border: none;
+  }
+}

@@ -1,3 +1,21 @@
 .contour-bg {
   background: url("../../images/customer-care-bg.png");
 }
+
+.contact-page label {
+  margin-top: 2%;
+}
+
+.contact-page .message {
+  margin-top: 5%;
+}
+
+@media only screen and (max-width: 480px) {
+  .form-control {
+    margin-top: 2%;
+  }
+
+  .contact-page .message {
+    margin-top: 2%;
+  }
+}

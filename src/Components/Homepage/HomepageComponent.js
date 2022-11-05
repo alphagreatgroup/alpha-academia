@@ -36,13 +36,13 @@ function HomepageComponent() {
                 </p>
               </Col>
             </Row>
-            <Row className="text-start">
+            <Row className="text-start get-started-button">
               <Col>
                 <button>Get started</button>
               </Col>
             </Row>
           </Col>
-          <Col>
+          <Col md={6} sm={12} className="d-none d-md-block">
             <img
               alt="student"
               src={laptopStudent}
@@ -52,7 +52,7 @@ function HomepageComponent() {
           </Col>
         </Row>
         <Row
-          style={{ backgroundColor: "var(--crimson)", marginTop: "-10%" }}
+          style={{ backgroundColor: "var(--crimson)" }}
           className="p-4 w-75 mx-auto text-white rounded"
         >
           <Col>
@@ -69,7 +69,7 @@ function HomepageComponent() {
           </Col>
         </Row>
         <Row className="mt-5">
-          <Col>
+          <Col md={6} sm={12}>
             <img
               src={bookStudent}
               className="img-fluid w-75 grayscale-img"
@@ -99,7 +99,7 @@ function HomepageComponent() {
             </Row>
           </Col>
         </Row>
-        <Row className="mt-5 p-5 perfect-score">
+        <Row className="mt-5 p-md-5 perfect-score">
           <Col md={6}>
             <Row>
               <p className="h1 text-start">

@@ -10,8 +10,8 @@ import "./ContactPageStyles.css";
 
 function ContactPage() {
   return (
-    <>
-      <Container className="mt-5">
+    <section className="contact-page">
+      <Container className="mt-5 ">
         <Row>
           <Col md={6}>
             <h1 className="text-start">
@@ -24,11 +24,12 @@ function ContactPage() {
         <Row>
           <Col sm={12} md={6}>
             <Row>
-              <Col className="text-start">
+              <Col md={6} className="text-start">
                 <label htmlFor="fullName" className="d-block">
                   Full name
                 </label>
                 <input
+                  className="form-control"
                   type="text"
                   placeholder="eg. Titus Appiah"
                   id="fullName"
@@ -38,16 +39,21 @@ function ContactPage() {
                 <label htmlFor="email" className="d-block">
                   Email
                 </label>
-                <input type="text" placeholder="example@email.com" id="email" />
+                <input
+                  className="form-control"
+                  type="text"
+                  placeholder="example@email.com"
+                  id="email"
+                />
               </Col>
             </Row>
-            <Row className="mt-5 text-start">
+            <Row className="text-start message">
               <Col>
                 <label htmlFor="message" className="d-block">
                   Message
                 </label>
                 <textarea
-                  className="w-100"
+                  className="w-100 form-control"
                   rows={5}
                   placeholder="Please leave your message here"
                 ></textarea>
@@ -59,7 +65,7 @@ function ContactPage() {
               </Col>
             </Row>
           </Col>
-          <Col>
+          <Col className="d-none d-md-block">
             <div
               className="contour-bg text-end h-75 position-absolute"
               style={{ width: "35%" }}
@@ -72,7 +78,7 @@ function ContactPage() {
           </Col>
         </Row>
       </Container>
-    </>
+    </section>
   );
 }
 

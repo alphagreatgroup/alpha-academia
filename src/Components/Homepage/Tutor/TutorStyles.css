@@ -1,5 +1,5 @@
 .tutor-card {
-  width: 20rem;
+  width: 19rem;
   padding: 2rem 2rem 1rem 2rem;
   border-radius: 0px 0px 20px 20px;
   box-shadow: 0px 40px 80px rgba(172, 170, 170, 0.6);
@@ -15,7 +15,6 @@
 }
 
 .star {
-  /* border: 2px solid red; */
   width: 0.7rem;
 }
 
