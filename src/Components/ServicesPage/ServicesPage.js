@@ -9,7 +9,7 @@ const ServicesPage = () => {
   return (
     <>
       <Container className="text-start">
-        <Row>
+        <Row className="row-cols-1 row-cols-md-2">
           <Col>
             <h1>Tutoring</h1>
             <p className="lh-base text-secondary">
@@ -22,7 +22,7 @@ const ServicesPage = () => {
           </Col>
           <Col></Col>
         </Row>
-        <Row>
+        <Row className="row-cols-1 row-cols-md-2 gap-5">
           <Col>
             <TutorOption
               text="online tutoring"
@@ -38,7 +38,7 @@ const ServicesPage = () => {
             />
           </Col>
         </Row>
-        <Row className="my-5">
+        <Row className="my-5 row-cols-1 row-cols-md-2 gap-5">
           <Col>
             <h2 className="h1">
               Test <span className="crimson text">prepping</span>
