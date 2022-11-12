@@ -11,7 +11,7 @@ function Testimonial(props) {
         <div className="d-flex align-items-center">
           <img
             src={props.imagePath}
-            className="img-fluid testifier w-25 me-3"
+            className="img-fluid testifier me-3"
             alt={props.name}
           />
           <div className="d-flex flex-column">
