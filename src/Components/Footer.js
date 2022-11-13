@@ -33,8 +33,8 @@ const Footer = () => {
           <Col>
             <p>Alpha Great Spintex. Rd, Shell bus stop</p>
             <p>P. O. Box TN 1717</p>
-            <p>Tel: +233 (0)559120555/ 247736843/246076373</p>
-            <p>alphagreatgroup@gmail.com</p>
+            <p>Tel: +233 (0)599532316/ 559120555/507200245</p>
+            <p>alphagreatds@gmail.com</p>
           </Col>
           <Col></Col>
           <Col>
@@ -55,7 +55,7 @@ const Footer = () => {
             </Row>
           </Col>
         </Row>
-        <p className="text-center">&copy; 2022 alpha academia, Inc.</p>
+        <p className="text-center">&copy; 2022 alpha academea, Inc.</p>
       </Container>
     </div>
   );

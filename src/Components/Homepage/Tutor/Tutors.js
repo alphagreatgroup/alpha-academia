@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 import Tutor from "./Tutor";
 
 import Danny from "../../../images/Danny.png";
-import Fred from "../../../images/Fred.png";
+import Fred from "../../../images/Tutor Fred.png";
 import Jess from "../../../images/Jess.png";
 
 function Tutors() {

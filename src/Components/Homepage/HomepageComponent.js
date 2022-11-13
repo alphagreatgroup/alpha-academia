@@ -25,7 +25,7 @@ function HomepageComponent() {
             <Row>
               <p className="text-start h1">
                 <span className="crimson">learn</span> and{" "}
-                <span className="crimson">train</span> with alpha academia
+                <span className="crimson">train</span> with alpha academea
               </p>
             </Row>
             <Row>
