@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Daniel from "../../images/daniel.png";
-import Paul from "../../images/Paul.png";
 import Default from "../../images/default.png";
 import Fiifi from "../../images/fiifi.png";
-import Delight from "../../images/Delight.png";
+import Gordon from "../../images/gordon.jpg"
 import OurMission from "../../images/our_mission.png";
 
 const AboutPage = () => {
@@ -24,44 +23,30 @@ const AboutPage = () => {
           </Col>
           <Col></Col>
         </Row>
-        <Row className="row-cols-1 row-cols-md-3 mt-5">
+        <Row className="row-cols-1 row-cols-md-4 mt-5">
           <Col>
             <img src={Daniel} alt="Daniel" className="rounded-circle w-75" />
             <h3 className="fs-4 mb-0">Daniel Bontii</h3>
-            <p className="fs-6 fw-bold text-secondary">Head of Engineering</p>
+            <p className="fs-6 fw-bold text-secondary">Head of Alpha Pi / Senior Developer</p>
           </Col>
           <Col>
             <img
-              src={Default}
+              src={Gordon}
               alt="Nana Kwame"
               className="rounded-circle w-75"
             />
-            <h3 className="fs-4 mb-0">Nana Kwame Appau</h3>
-            <p className="fs-6 fw-bold text-secondary">Founder and CEO</p>
+            <h3 className="fs-4 mb-0">Theophilus Gordon</h3>
+            <p className="fs-6 fw-bold text-secondary">Product Manager</p>
           </Col>
           <Col>
-            <img src={Paul} alt="Paul" className="rounded-circle w-75" />
-            <h3 className="fs-4 mb-0">Paul Sansah</h3>
-            <p className="fs-6 fw-bold text-secondary">COO</p>
+            <img src={Default} alt="Paul" className="rounded-circle w-75" />
+            <h3 className="fs-4 mb-0">Christopher Huago Addo</h3>
+            <p className="fs-6 fw-bold text-secondary">Financial Officer</p>
           </Col>
           <Col>
             <img src={Fiifi} alt="" className="rounded-circle w-75" />
             <h3 className="fs-4 mb-0">Fiifi Appiah</h3>
-            <p className="fs-6 fw-bold text-secondary">UX Designer</p>
-          </Col>
-          <Col>
-            <img src={Default} alt="" className="rounded-circle w-75" />
-            <h3 className="fs-4 mb-0">Felix Amoah</h3>
-            <p className="fs-6 fw-bold text-secondary">
-              Head of Sales and Marketing
-            </p>
-          </Col>
-          <Col>
-            <img src={Delight} alt="" className="rounded-circle w-75" />
-            <h3 className="fs-4 mb-0">Delight Jessica</h3>
-            <p className="fs-6 fw-bold text-secondary">
-              Head of Tutoring and Test Prepping
-            </p>
+            <p className="fs-6 fw-bold text-secondary">UX/UI Designer</p>
           </Col>
         </Row>
         <button>view more</button>
