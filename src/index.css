@@ -39,8 +39,12 @@ button {
   --crimson: #990000;
 }
 
-.crimson{
+.crimson {
   color: var(--crimson);
+}
+
+.bg-crimson {
+  background-color: var(--crimson);
 }
 
 .prep-box {
@@ -50,4 +54,44 @@ button {
   height: 200px;
   z-index: -1;
   right: 7rem;
+}
+
+.inline {
+  display: inline-flex;
+  gap: 2rem;
+}
+
+.font-fill {
+  font-size: clamp(2rem, 4vw, 5rem);
+  font-weight: 700;
+}
+
+.bg-wood {
+  background-image: url("./images/customer-care-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.google-icon {
+  width: 1.875rem;
+  margin-right: 1rem;
+}
+
+.welcome-head {
+  background-image: url("./images/welcome.png");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-body {
+  background-image: url("./images/welcome-wood.png");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vertical-center {
+  margin-top: 50vh;
+  transform: translateY(-50%);
 }

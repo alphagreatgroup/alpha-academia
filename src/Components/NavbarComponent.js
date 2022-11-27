@@ -22,7 +22,7 @@ function NavbarComponent() {
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link>
+            <Nav.Link href="/register">
               <button>Register</button>
             </Nav.Link>
           </Nav>
