@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Daniel from "../../images/daniel.png";
-import Default from "../../images/default.png";
 import Fiifi from "../../images/fiifi.png";
-import Gordon from "../../images/gordon.jpg"
+import Gordon from "../../images/gordon.jpg";
 import OurMission from "../../images/our_mission.png";
+import Donkor from "../../images/Donkor.png";
+import Christopher from "../../images/Christopher.png";
 
 const AboutPage = () => {
   return (
@@ -23,30 +24,55 @@ const AboutPage = () => {
           </Col>
           <Col></Col>
         </Row>
-        <Row className="row-cols-1 row-cols-md-4 mt-5">
+        <Row className="row-cols-1 row-cols-md-3 mt-5">
           <Col>
-            <img src={Daniel} alt="Daniel" className="rounded-circle w-75" />
+            <img
+              src={Daniel}
+              alt="Daniel Bontii"
+              className="rounded-circle w-75"
+            />
             <h3 className="fs-4 mb-0">Daniel Bontii</h3>
-            <p className="fs-6 fw-bold text-secondary">Head of Alpha Pi / Senior Developer</p>
+            <p className="fs-5 fw-bold text-secondary">
+              Head of Alpha Pi /<br /> Senior Developer
+            </p>
+          </Col>
+          <Col>
+            <img
+              src={Donkor}
+              alt="Emmanuel Donkor"
+              className="rounded-circle w-75"
+            />
+            <h3 className="fs-4 mb-0">Emmanuel Donkor</h3>
+            <p className="fs-5 fw-bold text-secondary">Operations Manager</p>
           </Col>
           <Col>
             <img
               src={Gordon}
-              alt="Nana Kwame"
+              alt="Theophilus Gordon"
               className="rounded-circle w-75"
             />
             <h3 className="fs-4 mb-0">Theophilus Gordon</h3>
-            <p className="fs-6 fw-bold text-secondary">Product Manager</p>
+            <p className="fs-5 fw-bold text-secondary">Product Manager</p>
           </Col>
+        </Row>
+        <Row className="row-cols-1 row-cols-md-3 mt-5 offset-md-3">
           <Col>
-            <img src={Default} alt="Paul" className="rounded-circle w-75" />
-            <h3 className="fs-4 mb-0">Christopher Huago Addo</h3>
-            <p className="fs-6 fw-bold text-secondary">Financial Officer</p>
-          </Col>
-          <Col>
-            <img src={Fiifi} alt="" className="rounded-circle w-75" />
+            <img
+              src={Fiifi}
+              alt="Fiifi Appiah"
+              className="rounded-circle w-75"
+            />
             <h3 className="fs-4 mb-0">Fiifi Appiah</h3>
-            <p className="fs-6 fw-bold text-secondary">UX/UI Designer</p>
+            <p className="fs-5 fw-bold text-secondary">UX/UI Designer</p>
+          </Col>
+          <Col>
+            <img
+              src={Christopher}
+              alt="Christopher Huago Addo"
+              className="rounded-circle w-75"
+            />
+            <h3 className="fs-4 mb-0">Christopher Huago Addo</h3>
+            <p className="fs-5 fw-bold text-secondary">Financial Officer</p>
           </Col>
         </Row>
         <button>view more</button>
